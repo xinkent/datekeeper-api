@@ -1,0 +1,10 @@
+USE db;
+
+DROP TABLE IF EXISTS DATE_SPOTS;
+
+CREATE TABLE date_spots (
+   `id` int AUTO_INCREMENT NOT NULL,
+   `spot_name` VARCHAR(255) NOT NULL,
+   `priority` TINYINT DEFAULT NULL,
+   PRIMARY KEY (`id`)
+);
